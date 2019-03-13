@@ -1,0 +1,15 @@
+{
+  "name": "YourTopSites",
+  "version": "1.0",
+  "description": "extension to find your top visited sites",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["topSites","debugger"],
+  "browser_action": {
+    "default_title": "YourTopSites",
+    "default_popup": "popup.html"
+  }
+}
